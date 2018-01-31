@@ -19,23 +19,22 @@ yarn add react-native-prism-primitives
 
 ## Synopsis
 
-React Native primitives integrated with [Prism][] designed to reduce the cognitive load when migrating to or integrating with [Prism][].
+React Native primitives integrated with [Prism][] designed to reduce the cognitive load during migration or integration.
 
-This library exposes all the React Native visual components ready for use with [Prism][] so is a drop-in replacement.
+This library exposes all the React Native visual components wrapped using the `Prism()` function. Class names are identical so it is a drop-in replacement.
 
 ## Getting Started
 
-Configure your application (see the Prism [Getting Started][] guide) and then you can import your visual components from `react-native-prism-primitives` to use the [Prism][] properties in your application.
+Configure your application (see the Prism [Getting Started][] guide) and then you can import your visual components from `react-native-prism-primitives` to use the [Prism Properties][] in your application.
 
 ```javascript
-import {Text} from 'react-native'
+import {
+  Text,
+  View
+} from 'react-native-prism-primitives'
 ```
 
-```javascript
-import {Text} from 'react-native-prism-primitives'
-```
-
-You can now also define default style declarations for the primitive components in your style sheet:
+You can now define default style declarations for the primitive components in your style sheet:
 
 ```javascript
 export default ({colors, fonts}) => {
@@ -51,9 +50,14 @@ export default ({colors, fonts}) => {
 }
 ```
 
+## Notes
+
+This library only exposes the *visual components*. API components (such as `Platform`) should still be imported directly from `react-native`.
+
 ## License
 
 MIT
 
 [Prism]: https://github.com/fika-community/prism
 [Getting Started]: https://github.com/fika-community/prism#getting-started
+[Prism Properties]: https://github.com/fika-community/prism#properties
