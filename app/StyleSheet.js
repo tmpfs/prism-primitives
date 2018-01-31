@@ -1,9 +1,9 @@
 export default ({colors, fonts}) => {
   return {
-    'com.fika.ui.View': {
+    View: {
       flex: 1
     },
-    'com.fika.ui.Text': {
+    Text: {
       color: 'red'
     }
   }

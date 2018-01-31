@@ -47,7 +47,7 @@ export default class App extends Component<{}> {
               border='cream'
               padding={20}
               align='center'
-              color='muted'
+              //color='muted'
               size={18}
               //error
               margin={[10, 20]}>
