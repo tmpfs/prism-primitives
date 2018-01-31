@@ -38,20 +38,7 @@ import {
 
 You can now define default style declarations for the primitive components in your style sheet:
 
-```javascript
-export default ({colors, fonts}) => {
-  return {
-    View: {
-      flex: 1
-    },
-    Text: {
-      fontFamily: fonts.regular,
-      fontSize: 18,
-      color: colors.muted
-    }
-  }
-}
-```
+<? @source {javascript} ../app/StyleSheet.js ?>
 
 ## Implementation
 
