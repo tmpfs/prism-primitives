@@ -4,9 +4,8 @@ import {Prism} from 'react-native-prism'
 
 class Text extends Component {
   render () {
-    const {style} = this.props
     return (
-      <NativeText {...this.props} style={style}>
+      <NativeText {...this.props}>
         {this.props.children}
       </NativeText>
     )
