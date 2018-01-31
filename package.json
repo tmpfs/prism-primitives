@@ -10,10 +10,6 @@
     "type": "git",
     "url": "https://github.com/fika-community/prism-primitives.git"
   },
-  "dependencies": {
-    "react": "16.2.0",
-    "react-native": "0.52.2"
-  },
   "devDependencies": {
     "babel-jest": "22.1.0",
     "babel-preset-react-native": "4.0.0",
@@ -24,6 +20,8 @@
     "preset": "react-native"
   },
   "peerDependencies": {
+    "react": "^16.2.0",
+    "react-native": "^0.52.2",
     "react-native-prism": "^1.7.2"
   }
 }
