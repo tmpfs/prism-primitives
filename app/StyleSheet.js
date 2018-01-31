@@ -4,7 +4,9 @@ export default ({colors, fonts}) => {
       flex: 1
     },
     Text: {
-      color: 'red'
+      fontFamily: fonts.regular,
+      fontSize: 18,
+      color: colors.cream
     }
   }
 }

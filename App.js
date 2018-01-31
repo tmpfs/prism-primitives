@@ -3,7 +3,7 @@ import {Prism, StyleRegistry} from 'react-native-prism'
 import {
   Text,
   View
-} from './src/index'
+} from './src'
 
 import Colors from './app/Colors'
 import Fonts from './app/Fonts'
@@ -20,16 +20,6 @@ Prism.configure(
     extendedProperties: true
   }
 )
-
-
-            //<ImageText
-              //border='cream'
-              //padding={20}
-              //margin={[10, 20]}
-              //width={96}
-              //height={96}
-              //size={24}
-              //source={{uri: image}}>Prism</ImageText>
 
 const image = 'https://raw.githubusercontent.com/fika-community/prism/master/prism.png'
 
