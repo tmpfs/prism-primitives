@@ -17,5 +17,8 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "peerDependencies": {
+    "react-native-prism": "^1.7.2"
   }
 }
