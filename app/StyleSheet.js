@@ -6,7 +6,7 @@ export default ({colors, fonts}) => {
     Text: {
       fontFamily: fonts.regular,
       fontSize: 18,
-      color: colors.cream
+      color: colors.muted
     }
   }
 }
