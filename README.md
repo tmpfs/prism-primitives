@@ -30,6 +30,8 @@ React Native primitives integrated with [Prism](https://github.com/fika-communit
 
 This library exposes all the React Native visual components wrapped using the `Prism()` function. Class names are identical so it is a drop-in replacement.
 
+The API is considered fixed. Bug fixes will be released under minor/patch versions and changes to the underlying RN components will be tracked via major versions.
+
 ## Getting Started
 
 Configure your application (see the Prism [Getting Started](https://github.com/fika-community/prism#getting-started) guide) and then you can import your visual components from `react-native-prism-primitives` to use the [Prism Properties](https://github.com/fika-community/prism#properties) in your application.
