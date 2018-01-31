@@ -23,7 +23,7 @@ yarn add react-native-prism-primitives
 
 ## Synopsis
 
-React Native components integrated with [prism](https://github.com/fika-community/prism).
+React Native components integrated with [Prism](https://github.com/fika-community/prism).
 
 ## License
 
