@@ -23,7 +23,9 @@ React Native primitives integrated with [Prism][] designed to reduce the cogniti
 
 This library exposes all the React Native visual components wrapped using the `Prism()` function. Class names are identical so it is a drop-in replacement.
 
-The API is considered fixed. Bug fixes will be released under minor/patch versions and changes to the underlying RN components will be tracked via major versions.
+The API is considered locked and changes will only be made for bugs or if the underlying RN components being tracked change.
+
+Bug fixes will be released under patch versions, new RN components under minor releases and major changes to the underlying RN components (deletions) will be tracked via major version releases.
 
 ## Getting Started
 
