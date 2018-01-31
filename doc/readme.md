@@ -50,6 +50,12 @@ export default ({colors, fonts}) => {
 }
 ```
 
+## Implementation
+
+The components are very thin wrappers around the RN components and do not add any extra functionality apart from that enabled by [Prism][].
+
+<? @source {javascript} ../src/Text.js ?>
+
 ## Notes
 
 This library only exposes the *visual components*. API components (such as `Platform`) should still be imported directly from `react-native`.

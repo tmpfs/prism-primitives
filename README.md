@@ -9,6 +9,7 @@
 - [Installation](#installation)
 - [Synopsis](#synopsis)
 - [Getting Started](#getting-started)
+- [Implementation](#implementation)
 - [Notes](#notes)
 - [License](#license)
 
@@ -54,6 +55,28 @@ export default ({colors, fonts}) => {
     }
   }
 }
+```
+
+## Implementation
+
+The components are very thin wrappers around the RN components and do not add any extra functionality apart from that enabled by [Prism](https://github.com/fika-community/prism).
+
+```javascript
+import React, {Component} from 'react'
+import {Text as NativeText} from 'react-native'
+import {Prism} from 'react-native-prism'
+
+class Text extends Component {
+  render () {
+    return (
+      <NativeText {...this.props}>
+        {this.props.children}
+      </NativeText>
+    )
+  }
+}
+
+export default Prism(Text)
 ```
 
 ## Notes
