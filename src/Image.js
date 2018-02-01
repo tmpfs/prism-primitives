@@ -3,6 +3,9 @@ import {Image as NativeImage} from 'react-native'
 import {Prism} from 'react-native-prism'
 
 class Image extends Component {
+
+  static propTypes = Image.propTypes
+
   render () {
     return (
       <NativeImage {...this.props}>
