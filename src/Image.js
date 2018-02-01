@@ -4,7 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class Image extends Component {
 
-  static propTypes = Image.propTypes
+  static propTypes = NativeImage.propTypes
 
   render () {
     return (
