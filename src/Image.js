@@ -4,6 +4,12 @@ import {Prism} from 'react-native-prism'
 
 class Image extends Component {
 
+  static styleOptions = () => {
+    return {
+      supportsDimension: true
+    }
+  }
+
   static propTypes = NativeImage.propTypes
 
   render () {

@@ -4,6 +4,12 @@ import {Prism} from 'react-native-prism'
 
 class View extends Component {
 
+  static styleOptions = () => {
+    return {
+      supportsDimension: true
+    }
+  }
+
   static propTypes = NativeView.propTypes
 
   render () {
