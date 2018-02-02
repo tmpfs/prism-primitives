@@ -14,6 +14,9 @@
     "babel-jest": "22.1.0",
     "babel-preset-react-native": "4.0.0",
     "jest": "22.1.4",
+    "react": "^16.2.0",
+    "react-native": "^0.52.2",
+    "react-native-prism": "^2.0.1",
     "react-test-renderer": "16.2.0"
   },
   "jest": {
@@ -22,6 +25,6 @@
   "peerDependencies": {
     "react": "^16.2.0",
     "react-native": "^0.52.2",
-    "react-native-prism": "^1.7.2"
+    "react-native-prism": "^2.0.1"
   }
 }

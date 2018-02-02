@@ -3,6 +3,9 @@ import {ProgressBarAndroid as NativeProgressBarAndroid} from 'react-native'
 import {Prism} from 'react-native-prism'
 
 class ProgressBarAndroid extends Component {
+
+  static propTypes = NativeProgressBarAndroid.propTypes
+
   render () {
     return (
       <NativeProgressBarAndroid {...this.props}>

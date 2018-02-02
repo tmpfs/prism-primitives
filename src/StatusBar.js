@@ -3,6 +3,9 @@ import {StatusBar as NativeStatusBar} from 'react-native'
 import {Prism} from 'react-native-prism'
 
 class StatusBar extends Component {
+
+  static propTypes = NativeStatusBar.propTypes
+
   render () {
     return (
       <NativeStatusBar {...this.props}>

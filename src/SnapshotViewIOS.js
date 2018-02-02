@@ -3,6 +3,9 @@ import {SnapshotViewIOS as NativeSnapshotViewIOS} from 'react-native'
 import {Prism} from 'react-native-prism'
 
 class SnapshotViewIOS extends Component {
+
+  static propTypes = NativeSnapshotViewIOS.propTypes
+
   render () {
     return (
       <NativeSnapshotViewIOS {...this.props}>

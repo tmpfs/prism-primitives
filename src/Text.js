@@ -3,6 +3,9 @@ import {Text as NativeText} from 'react-native'
 import {Prism} from 'react-native-prism'
 
 class Text extends Component {
+
+  static propTypes = NativeText.propTypes
+
   render () {
     return (
       <NativeText {...this.props}>

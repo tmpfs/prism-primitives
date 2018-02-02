@@ -4,6 +4,9 @@ import {Prism} from 'react-native-prism'
 const NativeTabBarIOSItem = NativeTabBarIOS.Item
 
 class TabBarIOS extends Component {
+
+  static propTypes = NativeTabBarIOS.propTypes
+
   render () {
     return (
       <NativeTabBarIOS {...this.props}>
@@ -14,6 +17,9 @@ class TabBarIOS extends Component {
 }
 
 class TabBarIOSItem extends Component {
+
+  static propTypes = NativeTabBarIOSItem.propTypes
+
   render () {
     return (
       <NativeTabBarIOSItem {...this.props}>

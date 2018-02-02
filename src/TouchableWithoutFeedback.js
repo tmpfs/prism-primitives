@@ -3,6 +3,9 @@ import {TouchableWithoutFeedback as NativeTouchableWithoutFeedback} from 'react-
 import {Prism} from 'react-native-prism'
 
 class TouchableWithoutFeedback extends Component {
+
+  static propTypes = NativeTouchableWithoutFeedback.propTypes
+
   render () {
     return (
       <NativeTouchableWithoutFeedback {...this.props}>

@@ -3,6 +3,9 @@ import {TouchableNativeFeedback as NativeTouchableNativeFeedback} from 'react-na
 import {Prism} from 'react-native-prism'
 
 class TouchableNativeFeedback extends Component {
+
+  static propTypes = NativeTouchableNativeFeedback.propTypes
+
   render () {
     return (
       <NativeTouchableNativeFeedback {...this.props}>

@@ -3,6 +3,9 @@ import {Button as NativeButton} from 'react-native'
 import {Prism} from 'react-native-prism'
 
 class Button extends Component {
+
+  static propTypes = NativeButton.propTypes
+
   render () {
     return (
       <NativeButton {...this.props}>

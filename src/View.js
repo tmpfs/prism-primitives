@@ -3,6 +3,9 @@ import {View as NativeView} from 'react-native'
 import {Prism} from 'react-native-prism'
 
 class View extends Component {
+
+  static propTypes = NativeView.propTypes
+
   render () {
     return (
       <NativeView {...this.props}>

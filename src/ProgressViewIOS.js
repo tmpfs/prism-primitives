@@ -3,6 +3,9 @@ import {ProgressViewIOS as NativeProgressViewIOS} from 'react-native'
 import {Prism} from 'react-native-prism'
 
 class ProgressViewIOS extends Component {
+
+  static propTypes = NativeProgressViewIOS.propTypes
+
   render () {
     return (
       <NativeProgressViewIOS {...this.props}>

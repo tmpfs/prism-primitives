@@ -3,6 +3,9 @@ import {MaskedViewIOS as NativeMaskedViewIOS} from 'react-native'
 import {Prism} from 'react-native-prism'
 
 class MaskedViewIOS extends Component {
+
+  static propTypes = NativeMaskedViewIOS.propTypes
+
   render () {
     return (
       <NativeMaskedViewIOS {...this.props}>

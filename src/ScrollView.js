@@ -3,6 +3,9 @@ import {ScrollView as NativeScrollView} from 'react-native'
 import {Prism} from 'react-native-prism'
 
 class ScrollView extends Component {
+
+  static propTypes = NativeScrollView.propTypes
+
   render () {
     return (
       <NativeScrollView {...this.props}>

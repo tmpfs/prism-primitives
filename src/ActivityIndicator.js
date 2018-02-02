@@ -3,6 +3,9 @@ import {ActivityIndicator as NativeActivityIndicator} from 'react-native'
 import {Prism} from 'react-native-prism'
 
 class ActivityIndicator extends Component {
+
+  static propTypes = NativeActivityIndicator.propTypes
+
   render () {
     return (
       <NativeActivityIndicator {...this.props}>

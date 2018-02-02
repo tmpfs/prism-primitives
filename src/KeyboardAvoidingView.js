@@ -3,6 +3,9 @@ import {KeyboardAvoidingView as NativeKeyboardAvoidingView} from 'react-native'
 import {Prism} from 'react-native-prism'
 
 class KeyboardAvoidingView extends Component {
+
+  static propTypes = NativeKeyboardAvoidingView.propTypes
+
   render () {
     return (
       <NativeKeyboardAvoidingView {...this.props}>

@@ -3,6 +3,9 @@ import {TouchableOpacity as NativeTouchableOpacity} from 'react-native'
 import {Prism} from 'react-native-prism'
 
 class TouchableOpacity extends Component {
+
+  static propTypes = NativeTouchableOpacity.propTypes
+
   render () {
     return (
       <NativeTouchableOpacity {...this.props}>
