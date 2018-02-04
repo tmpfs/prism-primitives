@@ -62,6 +62,16 @@ export default ({colors, fonts}) => {
 }
 ```
 
+And use the style property shortcuts (assuming they are enabled):
+
+```html
+<View background='steelblue' padding={10} margin={20}>
+  <Text color='white'>
+    Example
+  </Text>
+</View>
+```
+
 ## Implementation
 
 The components are very thin wrappers around the RN components and do not add any extra functionality apart from that enabled by [Prism](https://github.com/fika-community/prism).
@@ -72,6 +82,9 @@ import {Text as NativeText} from 'react-native'
 import {Prism} from 'react-native-prism'
 
 class Text extends Component {
+
+  static propTypes = NativeText.propTypes
+
   render () {
     return (
       <NativeText {...this.props}>
@@ -94,7 +107,7 @@ MIT
 
 ---
 
-Created by [mkdoc](https://github.com/mkdoc/mkdoc) on January 31, 2018
+Created by [mkdoc](https://github.com/mkdoc/mkdoc) on February 5, 2018
 
 [prism]: https://github.com/fika-community/prism
 [getting started]: https://github.com/fika-community/prism#getting-started

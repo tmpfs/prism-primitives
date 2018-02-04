@@ -16,7 +16,7 @@
     "jest": "22.1.4",
     "react": "^16.2.0",
     "react-native": "^0.52.2",
-    "react-native-prism": "^2.0.1",
+    "react-native-prism": "^3.4.0",
     "react-test-renderer": "16.2.0"
   },
   "jest": {
@@ -25,6 +25,6 @@
   "peerDependencies": {
     "react": "^16.2.0",
     "react-native": "^0.52.2",
-    "react-native-prism": "^2.0.1"
+    "react-native-prism": "^3.4.0"
   }
 }

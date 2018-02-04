@@ -42,6 +42,16 @@ You can now define default style declarations for the primitive components in yo
 
 <? @source {javascript} ../app/StyleSheet.js ?>
 
+And use the style property shortcuts (assuming they are enabled):
+
+```html
+<View background='steelblue' padding={10} margin={20}>
+  <Text color='white'>
+    Example
+  </Text>
+</View>
+```
+
 ## Implementation
 
 The components are very thin wrappers around the RN components and do not add any extra functionality apart from that enabled by [Prism][].
