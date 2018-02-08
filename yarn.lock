@@ -3567,9 +3567,9 @@ react-devtools-core@3.0.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-react-native-prism@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/react-native-prism/-/react-native-prism-3.4.0.tgz#6c0f5356ab72ed49dd2803b71a41e69e032b0f2b"
+react-native-prism@^4.4.2:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/react-native-prism/-/react-native-prism-4.4.2.tgz#df9691e56e85c4d5497874d6e611c6eb1f5ad27a"
 
 react-native@^0.52.2:
   version "0.52.2"

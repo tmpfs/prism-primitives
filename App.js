@@ -5,23 +5,10 @@ import {
   View
 } from './src'
 
-import Colors from './app/Colors'
-import Fonts from './app/Fonts'
-import StyleSheet from './app/StyleSheet'
+import theme from './theme'
 
-const registry = new StyleRegistry()
-registry.addColors(Colors)
-registry.addFonts(Fonts)
-registry.addStyleSheet(StyleSheet)
-Prism.configure(
-  registry,
-  {
-    debug: true,
-    extendedProperties: true
-  }
-)
-
-const image = 'https://raw.githubusercontent.com/fika-community/prism/master/prism.png'
+const registry = new StyleRegistry({theme})
+Prism.configure(registry,{extendedProperties: true, colorNames: true})
 
 export default class App extends Component<{}> {
   render () {
@@ -32,7 +19,6 @@ export default class App extends Component<{}> {
           padding={10}
           background='green'
           border={[4, 'cream']}>
-
             <Text
               border='cream'
               padding={20}
@@ -43,9 +29,6 @@ export default class App extends Component<{}> {
               margin={[10, 20]}>
                 Minimal, idiomatic style management for React Native.
               </Text>
-
-            <View direction='row' justify='center'>
-            </View>
           </View>
       </View>
     )

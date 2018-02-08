@@ -14,6 +14,7 @@ import PickerIOS from './PickerIOS'
 import ProgressBarAndroid from './ProgressBarAndroid'
 import ProgressViewIOS from './ProgressViewIOS'
 import RefreshControl from './RefreshControl'
+import SafeAreaView from './SafeAreaView'
 import ScrollView from './ScrollView'
 import SectionList from './SectionList'
 import SegmentedControlIOS from './SegmentedControlIOS'
@@ -51,6 +52,7 @@ export {
   ProgressBarAndroid,
   ProgressViewIOS,
   RefreshControl,
+  SafeAreaView,
   ScrollView,
   SectionList,
   SegmentedControlIOS,
