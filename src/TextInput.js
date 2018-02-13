@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class TextInput extends Component {
 
+  static styleName = 'TextInput'
   static propTypes = NativeTextInput.propTypes
 
   render () {

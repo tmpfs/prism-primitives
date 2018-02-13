@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class FlatList extends Component {
 
+  static styleName = 'FlatList'
   static propTypes = NativeFlatList.propTypes
 
   render () {

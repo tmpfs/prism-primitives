@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class Text extends Component {
 
+  static styleName = 'Text'
   static propTypes = NativeText.propTypes
 
   render () {

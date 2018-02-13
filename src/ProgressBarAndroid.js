@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class ProgressBarAndroid extends Component {
 
+  static styleName = 'ProgressBarAndroid'
   static propTypes = NativeProgressBarAndroid.propTypes
 
   render () {

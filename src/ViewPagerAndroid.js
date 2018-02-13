@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class ViewPagerAndroid extends Component {
 
+  static styleName = 'ViewPagerAndroid'
   static propTypes = NativeViewPagerAndroid.propTypes
 
   render () {

@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class KeyboardAvoidingView extends Component {
 
+  static styleName = 'KeyboardAvoidingView'
   static propTypes = NativeKeyboardAvoidingView.propTypes
 
   render () {

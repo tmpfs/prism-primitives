@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class SnapshotViewIOS extends Component {
 
+  static styleName = 'SnapshotViewIOS'
   static propTypes = NativeSnapshotViewIOS.propTypes
 
   render () {

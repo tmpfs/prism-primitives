@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class ProgressViewIOS extends Component {
 
+  static styleName = 'ProgressViewIOS'
   static propTypes = NativeProgressViewIOS.propTypes
 
   render () {

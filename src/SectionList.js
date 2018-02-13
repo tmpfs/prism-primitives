@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class SectionList extends Component {
 
+  static styleName = 'SectionList'
   static propTypes = NativeSectionList.propTypes
 
   render () {

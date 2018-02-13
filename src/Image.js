@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class Image extends Component {
 
+  static styleName = 'Image'
   static styleOptions = () => {
     return {
       supportsDimension: true

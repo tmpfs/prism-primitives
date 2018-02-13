@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class TouchableHighlight extends Component {
 
+  static styleName = 'TouchableHighlight'
   static propTypes = NativeTouchableHighlight.propTypes
 
   render () {

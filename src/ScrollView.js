@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class ScrollView extends Component {
 
+  static styleName = 'ScrollView'
   static propTypes = NativeScrollView.propTypes
 
   render () {

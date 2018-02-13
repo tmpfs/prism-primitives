@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class DatePickerIOS extends Component {
 
+  static styleName = 'DatePickerIOS'
   static propTypes = NativeDatePickerIOS.propTypes
 
   render () {

@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class NavigatorIOS extends Component {
 
+  static styleName = 'NavigatorIOS'
   static propTypes = NativeNavigatorIOS.propTypes
 
   render () {

@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class ListView extends Component {
 
+  static styleName = 'ListView'
   static propTypes = NativeListView.propTypes
 
   render () {

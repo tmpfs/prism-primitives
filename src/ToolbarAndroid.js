@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class ToolbarAndroid extends Component {
 
+  static styleName = 'ToolbarAndroid'
   static propTypes = NativeToolbarAndroid.propTypes
 
   render () {

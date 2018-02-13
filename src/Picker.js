@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class Picker extends Component {
 
+  static styleName = 'Picker'
   static propTypes = NativePicker.propTypes
 
   render () {

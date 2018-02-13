@@ -5,6 +5,7 @@ const NativeTabBarIOSItem = NativeTabBarIOS.Item
 
 class TabBarIOS extends Component {
 
+  static styleName = 'TabBarIOS'
   static propTypes = NativeTabBarIOS.propTypes
 
   render () {
@@ -18,6 +19,7 @@ class TabBarIOS extends Component {
 
 class TabBarIOSItem extends Component {
 
+  static styleName = 'TabBarIOSItem'
   static propTypes = NativeTabBarIOSItem.propTypes
 
   render () {

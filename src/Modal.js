@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class Modal extends Component {
 
+  static styleName = 'Modal'
   static propTypes = NativeModal.propTypes
 
   render () {

@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class PickerIOS extends Component {
 
+  static styleName = 'PickerIOS'
   static propTypes = NativePickerIOS.propTypes
 
   render () {

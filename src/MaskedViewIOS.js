@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class MaskedViewIOS extends Component {
 
+  static styleName = 'MaskedViewIOS'
   static propTypes = NativeMaskedViewIOS.propTypes
 
   render () {

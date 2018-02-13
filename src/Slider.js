@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class Slider extends Component {
 
+  static styleName = 'Slider'
   static propTypes = NativeSlider.propTypes
 
   render () {

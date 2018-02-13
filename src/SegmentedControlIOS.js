@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class SegmentedControlIOS extends Component {
 
+  static styleName = 'SegmentedControlIOS'
   static propTypes = NativeSegmentedControlIOS.propTypes
 
   render () {

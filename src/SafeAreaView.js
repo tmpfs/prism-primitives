@@ -4,6 +4,7 @@
 
 //class SafeAreaView extends Component {
 
+  //static styleName = 'SafeAreaView'
   //static styleOptions = {
     //supportsDimension: true
   //}

@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class Button extends Component {
 
+  static styleName = 'Button'
   static propTypes = NativeButton.propTypes
 
   render () {

@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class Switch extends Component {
 
+  static styleName = 'Switch'
   static propTypes = NativeSwitch.propTypes
 
   render () {

@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class TouchableOpacity extends Component {
 
+  static styleName = 'TouchableOpacity'
   static propTypes = NativeTouchableOpacity.propTypes
 
   render () {

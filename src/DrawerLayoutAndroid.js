@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class DrawerLayoutAndroid extends Component {
 
+  static styleName = 'DrawerLayoutAndroid'
   static propTypes = NativeDrawerLayoutAndroid.propTypes
 
   render () {

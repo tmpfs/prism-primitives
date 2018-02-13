@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class RefreshControl extends Component {
 
+  static styleName = 'RefreshControl'
   static propTypes = NativeRefreshControl.propTypes
 
   render () {

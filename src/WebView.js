@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class WebView extends Component {
 
+  static styleName = 'WebView'
   static propTypes = NativeWebView.propTypes
 
   render () {

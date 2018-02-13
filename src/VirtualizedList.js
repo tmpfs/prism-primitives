@@ -4,6 +4,7 @@ import {Prism} from 'react-native-prism'
 
 class VirtualizedList extends Component {
 
+  static styleName = 'VirtualizedList'
   static propTypes = NativeVirtualizedList.propTypes
 
   render () {
