@@ -1,7 +1,7 @@
 {
   "name": "react-native-prism-primitives",
   "description": "React Native primitives for Prism",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "main": "src/index.js",
   "scripts": {
     "test": "jest"
