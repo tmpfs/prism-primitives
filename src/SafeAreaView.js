@@ -1,23 +1,23 @@
-//import React, {Component} from 'react'
-//import {SafeAreaView as NativeSafeAreaView} from 'react-native'
-//import {Prism} from 'react-native-prism'
+import React, {Component} from 'react'
+import {SafeAreaView as NativeSafeAreaView} from 'react-native'
+import {Prism} from 'react-native-prism'
 
-//class SafeAreaView extends Component {
+class SafeAreaView extends Component {
 
-  //static styleName = 'SafeAreaView'
-  //static styleOptions = {
-    //supportsDimension: true
-  //}
+  static styleName = 'SafeAreaView'
+  static styleOptions = {
+    supportsDimension: true
+  }
 
-  //static propTypes = NativeSafeAreaView.propTypes
+  static propTypes = NativeSafeAreaView.propTypes
 
-  //render () {
-    //return (
-      //<NativeSafeAreaView {...this.props}>
-        //{this.props.children}
-      //</NativeSafeAreaView>
-    //)
-  //}
-//}
+  render () {
+    return (
+      <NativeSafeAreaView {...this.props}>
+        {this.props.children}
+      </NativeSafeAreaView>
+    )
+  }
+}
 
-//export default Prism(SafeAreaView)
+export default Prism(SafeAreaView)
