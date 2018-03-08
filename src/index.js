@@ -52,7 +52,7 @@ export {
   ProgressBarAndroid,
   ProgressViewIOS,
   RefreshControl,
-  //SafeAreaView,
+  SafeAreaView,
   ScrollView,
   SectionList,
   SegmentedControlIOS,
