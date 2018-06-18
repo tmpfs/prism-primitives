@@ -1,7 +1,7 @@
 <h1 align="center">Prism Primitives</h1>
-<p align="center">React Native primitives for <a href="https://github.com/fika-community/prism"title="Prism">Prism</a></p>
+<p align="center">React Native primitives for <a href="https://github.com/tmpfs/prism"title="Prism">Prism</a></p>
 <p align="center">
-  <img width="256" height="256" src="https://raw.githubusercontent.com/fika-community/prism/master/prism.png" />
+  <img width="256" height="256" src="https://raw.githubusercontent.com/tmpfs/prism/master/prism.png" />
 </p>
 
 ***
@@ -40,7 +40,20 @@ import {
 
 You can now define default style declarations for the primitive components in your style sheet:
 
-<? @source {javascript} ../app/StyleSheet.js ?>
+```javascript
+export default {
+  styles: ({colors, fonts}) => {
+    return {
+      'Text': {
+        color: 'green'
+      },
+      'View': {
+        flex: 1
+      }
+    }
+  }
+}
+```
 
 And use the style property shortcuts (assuming they are enabled):
 
@@ -66,6 +79,6 @@ This library only exposes the *visual components*. API components (such as `Plat
 
 MIT
 
-[Prism]: https://github.com/fika-community/prism
-[Getting Started]: https://github.com/fika-community/prism#getting-started
-[Prism Properties]: https://github.com/fika-community/prism#properties
+[Prism]: https://github.com/tmpfs/prism
+[Getting Started]: https://github.com/tmpfs/prism#getting-started
+[Prism Properties]: https://github.com/tmpfs/prism#properties

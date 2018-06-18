@@ -1,7 +1,7 @@
 <h1 align="center">Prism Primitives</h1>
-<p align="center">React Native primitives for <a href="https://github.com/fika-community/prism"title="Prism">Prism</a></p>
+<p align="center">React Native primitives for <a href="https://github.com/tmpfs/prism"title="Prism">Prism</a></p>
 <p align="center">
-  <img width="256" height="256" src="https://raw.githubusercontent.com/fika-community/prism/master/prism.png" />
+  <img width="256" height="256" src="https://raw.githubusercontent.com/tmpfs/prism/master/prism.png" />
 </p>
 
 ---
@@ -26,7 +26,7 @@ yarn add react-native-prism-primitives
 
 ## Synopsis
 
-React Native primitives integrated with [Prism](https://github.com/fika-community/prism) designed to reduce the cognitive load during migration or integration.
+React Native primitives integrated with [Prism](https://github.com/tmpfs/prism) designed to reduce the cognitive load during migration or integration.
 
 This library exposes all the React Native visual components wrapped using the `Prism()` function. Class names are identical so it is a drop-in replacement.
 
@@ -36,7 +36,7 @@ Bug fixes will be released under patch versions, new RN components under minor r
 
 ## Getting Started
 
-Configure your application (see the Prism [Getting Started](https://github.com/fika-community/prism#getting-started) guide) and then you can import your visual components from `react-native-prism-primitives` to use the [Prism Properties](https://github.com/fika-community/prism#properties) in your application.
+Configure your application (see the Prism [Getting Started](https://github.com/tmpfs/prism#getting-started) guide) and then you can import your visual components from `react-native-prism-primitives` to use the [Prism Properties](https://github.com/tmpfs/prism#properties) in your application.
 
 ```javascript
 import {
@@ -48,15 +48,15 @@ import {
 You can now define default style declarations for the primitive components in your style sheet:
 
 ```javascript
-export default ({colors, fonts}) => {
-  return {
-    View: {
-      flex: 1
-    },
-    Text: {
-      fontFamily: fonts.regular,
-      fontSize: 18,
-      color: colors.muted
+export default {
+  styles: ({colors, fonts}) => {
+    return {
+      'Text': {
+        color: 'green'
+      },
+      'View': {
+        flex: 1
+      }
     }
   }
 }
@@ -74,7 +74,7 @@ And use the style property shortcuts (assuming they are enabled):
 
 ## Implementation
 
-The components are very thin wrappers around the RN components and do not add any extra functionality apart from that enabled by [Prism](https://github.com/fika-community/prism).
+The components are very thin wrappers around the RN components and do not add any extra functionality apart from that enabled by [Prism](https://github.com/tmpfs/prism).
 
 ```javascript
 import React, {Component} from 'react'
@@ -83,6 +83,7 @@ import {Prism} from 'react-native-prism'
 
 class Text extends Component {
 
+  static styleName = 'Text'
   static propTypes = NativeText.propTypes
 
   render () {
@@ -107,9 +108,9 @@ MIT
 
 ---
 
-Created by [mkdoc](https://github.com/mkdoc/mkdoc) on February 5, 2018
+Created by [mkdoc](https://github.com/mkdoc/mkdoc) on June 18, 2018
 
-[prism]: https://github.com/fika-community/prism
-[getting started]: https://github.com/fika-community/prism#getting-started
-[prism properties]: https://github.com/fika-community/prism#properties
+[prism]: https://github.com/tmpfs/prism
+[getting started]: https://github.com/tmpfs/prism#getting-started
+[prism properties]: https://github.com/tmpfs/prism#properties
 
