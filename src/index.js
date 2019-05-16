@@ -19,7 +19,6 @@ import SegmentedControlIOS from './SegmentedControlIOS'
 import SnapshotViewIOS from './SnapshotViewIOS'
 import StatusBar from './StatusBar'
 import Switch from './Switch'
-import TabBarIOS from './TabBarIOS'
 import Text from './Text'
 import TextInput from './TextInput'
 import ToolbarAndroid from './ToolbarAndroid'
@@ -53,7 +52,6 @@ export {
   SnapshotViewIOS,
   StatusBar,
   Switch,
-  TabBarIOS,
   Text,
   TextInput,
   ToolbarAndroid,
